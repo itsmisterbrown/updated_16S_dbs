@@ -4,7 +4,7 @@ This is a modified version of the [RDP trainset 16](https://zenodo.org/record/80
 
 All databases are formatted for compatibility with the [DADA2 workflow](https://benjjneb.github.io/dada2/tutorial.html)
 
-Modifications to the default version of this database include the addition of several taxa that are key vaginal bacteria that have remained out of most 16S databases.
+Modifications to the default version of this database include the addition of several key vaginal bacteria that have remained out of most 16S databases.
 Taxa added are documented below:
 
 ## Bacterial vaginosis–associated bacteria (BVAB):
