@@ -7,7 +7,7 @@ All databases are formatted for compatibility with the [DADA2 workflow](https://
 Modifications to the default version of this database include the addition of several taxa that are key vaginal bacteria that have remained out of most 16S databases.
 Taxa added are documented below:
 
-##Bacterial vaginosis–associated bacteria (BVAB):
+## Bacterial vaginosis–associated bacteria (BVAB):
 BVAB1 (AY724739); Annotated as Lachnovaginosum BVAB1
 _E.coli_ coordinates: 113:1004
 ..* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802)
@@ -21,7 +21,7 @@ BVAB3 (AY724741); Annotated as Saccharofermentans BVAB3
 _E.coli_ coordinates: 101:1010
 ..* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802)
 
-##Others
+## Others
 Sneathia/Leptotrichia amnionii (AY724742); Annotated as Sneathia amnii
 _E.coli_ coordinates: 101:1009
 ..* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802)
