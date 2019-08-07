@@ -36,3 +36,8 @@ _Eggerthella species Type 1_ (AY738656); Annotated as _Eggerthella T1_
 _E.coli_ coordinates: __95:1000__  
 * Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802), 
 [McClelland et al. 2018 Lancet ID](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30058-6/fulltext)
+
+The image below was generated from datasets of stools from 149 South Africa infants (Fecal) and vaginal swabs from 564 adult African women (Vaginal)
+
+![alt text](https://github.com/itsmisterbrown/updated_16S_dbs/blob/master/RDP_v_Silva.png "RDP v Silva")
+
