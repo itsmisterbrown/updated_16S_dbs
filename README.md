@@ -4,7 +4,7 @@ All databases are formatted for compatibility with the [DADA2 workflow](https://
 
 Taxa added are documented in the same directory as the sequence files.
 
-The image below was generated from datasets of stools from 149 South African infants (Fecal) and vaginal swabs from 564 adult African women (Vaginal)
+The image below was generated from datasets of stools from 149 South African infants (Fecal; V6 region; HiSeq 2500) and vaginal swabs from 564 adult African women (Vaginal; V3-4 regions; MiSeq)
 
 ![alt text](https://github.com/itsmisterbrown/updated_16S_dbs/blob/master/RDP_v_Silva.png "RDP v Silva")
 
