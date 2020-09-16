@@ -1,6 +1,6 @@
 # updated 16S databases for marker gene taxonomic assignment
 
-This is a modified version of the [Silva trainset 138 (Version 2))](https://zenodo.org/record/3986799#.X2GWbWdKh24), which was constructed from the version 138 release of the [Silva Small Subunit rRNA database](https://www.arb-silva.de/documentation/release-138/)
+This is a modified version of the [Silva trainset 138 (Version 2)](https://zenodo.org/record/3986799#.X2GWbWdKh24), which was constructed from the version 138 release of the [Silva Small Subunit rRNA database](https://www.arb-silva.de/documentation/release-138/)
 
 All databases are formatted for compatibility with the [DADA2 workflow](https://benjjneb.github.io/dada2/tutorial.html)
 
@@ -37,13 +37,13 @@ _E.coli_ coordinates: __95:1000__
 * Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802), 
 [McClelland et al. 2018 Lancet ID](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30058-6/fulltext)
 
-_TM7-H1 isolate E1_ (AY738656); Annotated as _TM7-H1 E1_  
+_TM7-H1 isolate E1_ (CP026537); Annotated as _TM7-H1 E1_  
 _E.coli_ coordinates: __8:1540__  
 * Citations: [Fettweis et al. 2019 Nature Medicine](https://www.nature.com/articles/s41591-019-0450-2) 
 
 ## Relative performance
 
-The image below was generated from datasets of stools from 149 South African infants (Fecal; V6 region; HiSeq 2500) and vaginal swabs from 564 adult African women (Vaginal; V3-4 regions; MiSeq). The Silva database used was Version 132, but this version should perform even better.
+The image below was generated from datasets of stools from 149 South African infants (Fecal; V6 region; HiSeq 2500) and vaginal swabs from 564 adult African women (Vaginal; V3-4 regions; MiSeq). The Silva database used was Version 132, but this version (138) should perform even better.
 
 ![alt text](https://github.com/itsmisterbrown/updated_16S_dbs/blob/master/RDP_v_Silva.png "RDP v Silva")
 
