@@ -4,7 +4,8 @@ This is a modified version of the [Silva trainset 138 (Version 2)](https://zenod
 
 All databases are formatted for compatibility with the [DADA2 workflow](https://benjjneb.github.io/dada2/tutorial.html)
 
-###Note:Performing the standard _assignTaxonomy()/addSpecies()_ workflow with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz__ and _silva_species_assignment_v138_BPB_091820.fa.gz__ 
+### Note:
+Performing the standard _assignTaxonomy()/addSpecies()_ workflow with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz__ and _silva_species_assignment_v138_BPB_091820.fa.gz__ 
 __does not__ produce identical results to _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_ and, unfortunately, both seem to provide annotations that the other does not.
 It is unknown why this is the case, s my recommendation would be to try both and see which yields better results for your dataset. Obviously, one advantage of the annotating solely with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa_ is that it saves oen computational step.
 
