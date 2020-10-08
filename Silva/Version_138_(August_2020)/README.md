@@ -9,11 +9,12 @@ Taxa added are documented below ([Genbank accession](https://www.ncbi.nlm.nih.go
 
 ## Bacterial vaginosis–associated bacteria (BVAB):
 
-_BVAB1_ (AY724739); Annotated as _Lachnovaginosum BVAB1_  
+_BVAB1_ (AY724739); Annotated as _Lachnocurva vaginae_  
 _E.coli_ coordinates: __113:1004__   
 
 * Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802), 
-[Holm et al. 2019 preprint](https://www.biorxiv.org/content/biorxiv/early/2019/06/03/657197.full.pdf)  
+[Holm et al. 2020 Front. Cell. Infect. Microbiol.](https://www.frontiersin.org/articles/10.3389/fcimb.2020.00117/full)
+ 
 
 
 _BVAB2_ (AY724740); Annotated as _Saccharofermentans BVAB2_  
@@ -22,9 +23,10 @@ _E.coli_ coordinates: __101:1006__
 * Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802)  
 
 
-_BVAB3_ (AY724741); Annotated as _Saccharofermentans BVAB3_  
+_BVAB3_ (AY724741); Annotated as _Mageeibacillus indolicus_  
 _E.coli_ coordinates: __101:1010__  
-* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802)  
+* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802),
+[Austin et al. 2014 Anaerobe](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4385425/)  
 
 ## Others
 _Sneathia/Leptotrichia amnionii_ (AY724742); Annotated as _Sneathia amnii_  
