@@ -11,7 +11,7 @@ _assignTaxonomy()_ __and__ _addSpecies()_ with _silva_nr99_v138_train_set_BPB_09
 
 __or__ 
 
-only _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_.
+__only__ _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_.
 
 Performing the standard _assignTaxonomy()/addSpecies()_ workflow with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz_ and _silva_species_assignment_v138_BPB_091820.fa.gz_ 
 __does not__ produce identical results to solely using _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_ and, unfortunately, both seem to provide annotations that the other does not.
