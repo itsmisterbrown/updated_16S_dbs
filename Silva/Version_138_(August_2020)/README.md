@@ -5,8 +5,13 @@ This is a modified version of the [Silva trainset 138 (Version 2)](https://zenod
 All databases are formatted for compatibility with the [DADA2 workflow](https://benjjneb.github.io/dada2/tutorial.html)
 
 ### Note:
-Use either _assignTaxonomy()_ __and__ _addSpecies()_ with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz_ __and__ _silva_species_assignment_v138_BPB_091820.fa.gz 
-__or__ only _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_.
+Use __either:__ 
+
+_assignTaxonomy()_ __and__ _addSpecies()_ with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz_ __and__ _silva_species_assignment_v138_BPB_091820.fa.gz 
+
+__or__ 
+
+only _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_.
 
 Performing the standard _assignTaxonomy()/addSpecies()_ workflow with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz_ and _silva_species_assignment_v138_BPB_091820.fa.gz_ 
 __does not__ produce identical results to solely using _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_ and, unfortunately, both seem to provide annotations that the other does not.
