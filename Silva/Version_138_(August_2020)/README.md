@@ -5,9 +5,12 @@ This is a modified version of the [Silva trainset 138 (Version 2)](https://zenod
 All databases are formatted for compatibility with the [DADA2 workflow](https://benjjneb.github.io/dada2/tutorial.html)
 
 ### Note:
-Performing the standard _assignTaxonomy()/addSpecies()_ workflow with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz__ and _silva_species_assignment_v138_BPB_091820.fa.gz__ 
-__does not__ produce identical results to _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_ and, unfortunately, both seem to provide annotations that the other does not.
-It is unknown why this is the case, s my recommendation would be to try both and see which yields better results for your dataset. Obviously, one advantage of the annotating solely with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa_ is that it saves oen computational step.
+Use either _assignTaxonomy()_ __and__ _addSpecies()_ with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz_ __and__ _silva_species_assignment_v138_BPB_091820.fa.gz 
+__or__ only _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_.
+
+Performing the standard _assignTaxonomy()/addSpecies()_ workflow with _silva_nr99_v138_train_set_BPB_091820_updated.fa.gz_ and _silva_species_assignment_v138_BPB_091820.fa.gz_ 
+__does not__ produce identical results to solely using _assignTaxonomy()_ with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa.gz_ and, unfortunately, both seem to provide annotations that the other does not.
+It is unknown why this is the case, so my recommendation would be to try both and see which yields better results for your dataset. Obviously, one advantage of annotating solely with _silva_nr99_v138_wSpecies_train_set_BPB_091820_updated.fa_ is that it saves one computational step.
 
 Modifications to the default version of this database include the addition of several key vaginal bacteria that have remained out of most 16S databases.
 Taxa added are documented below ([Genbank accession](https://www.ncbi.nlm.nih.gov/genbank/) numbers are listed in parentheses):
