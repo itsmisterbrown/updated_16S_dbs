@@ -1,0 +1,65 @@
+# updated 16S databases for marker gene taxonomic assignment
+
+This is a modified version of the [Silva trainset 138.1 (Version 1)](https://https://zenodo.org/record/4587955), which was constructed from the version 138.1 release of the [Silva Small Subunit rRNA database](https://www.https://www.arb-silva.de/documentation/release-1381/)
+
+All databases are formatted for compatibility with the [DADA2 workflow](https://benjjneb.github.io/dada2/tutorial.html)
+
+### Note:
+Use __either:__ 
+
+_assignTaxonomy()_ __and__ _addSpecies()_ with _silva_nr99_v138.1_train_set_BPB_110921.fa.gz_ __and__ _silva_species_assignment_v138.1_BPB_110921.fa.gz 
+
+__or__ 
+
+__only__ _assignTaxonomy()_ with _silva_nr99_v138.1_wSpecies_train_set_BPB_110921.fa.gz_.
+
+Performing the standard _assignTaxonomy()/addSpecies()_ workflow with _silva_nr99_v138.1_train_set_BPB_110921.fa.gz_ and _silva_species_assignment_v138.1_BPB_110921.fa.gz_ 
+__does not__ produce identical results to solely using _assignTaxonomy()_ with _silva_nr99_v138.1_wSpecies_train_set_BPB_110921.fa.gz_ and, unfortunately, both seem to provide annotations that the other does not.
+It is unknown why this is the case, so my recommendation would be to try both and see which yields better results for your dataset. Obviously, one advantage of annotating solely with _silva_nr99_v138.1_wSpecies_train_set_BPB_110921.fa.gz_ is that it saves one computational step. 
+In my experience, the one step approach takes longer but seems to give better results.
+
+Modifications to the default version of this database include the addition of several key vaginal bacteria that have remained out of most 16S databases.
+Taxa added are documented below ([Genbank accession](https://www.ncbi.nlm.nih.gov/genbank/) numbers are listed in parentheses):
+
+## Bacterial vaginosis–associated bacteria (BVAB):
+
+_BVAB1_ (AY724739); Annotated as _Lachnocurva vaginae_  
+_E.coli_ coordinates: __113:1004__   
+
+* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802), 
+[Holm et al. 2020 Front. Cell. Infect. Microbiol.](https://www.frontiersin.org/articles/10.3389/fcimb.2020.00117/full)
+ 
+
+
+_BVAB2_ (AY724740); Annotated as _Saccharofermentans BVAB2_  
+_E.coli_ coordinates: __101:1006__  
+
+* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802)  
+
+
+_BVAB3_ (AY724741); Annotated as _Mageeibacillus indolicus_  
+_E.coli_ coordinates: __101:1010__  
+* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802),
+[Austin et al. 2014 Anaerobe](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4385425/)  
+
+## Others
+_Sneathia/Leptotrichia amnionii_ (AY724742); Annotated as _Sneathia amnii_  
+_E.coli_ coordinates: __101:1009__  
+* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802), 
+[Harwich et al. 2012 BMC Genomics](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-13-S8-S4)
+
+_Eggerthella species Type 1_ (AY738656); Annotated as _Eggerthella T1_  
+_E.coli_ coordinates: __95:1000__  
+* Citations: [Fredericks et al. 2005 NEJM](https://www.nejm.org/doi/full/10.1056/NEJMoa043802), 
+[McClelland et al. 2018 Lancet ID](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30058-6/fulltext)
+
+_TM7-H1 isolate E1_ (CP026537); Annotated as _TM7-H1 E1_  
+_E.coli_ coordinates: __8:1540__  
+* Citations: [Fettweis et al. 2019 Nature Medicine](https://www.nature.com/articles/s41591-019-0450-2) 
+
+## Relative performance
+
+The image below was generated from datasets of stools from 149 South African infants (Fecal; V6 region; HiSeq 2500) and vaginal swabs from 564 adult African women (Vaginal; V3-4 regions; MiSeq). The Silva database used was Version 132, but this version (138) should perform even better.
+
+![alt text](https://github.com/itsmisterbrown/updated_16S_dbs/blob/master/RDP_v_Silva.png "RDP v Silva")
+
