@@ -7,7 +7,7 @@ All databases are formatted for compatibility with the [DADA2 workflow](https://
 ### Note:
 Use __either:__ 
 
-_assignTaxonomy()_ __and__ _addSpecies()_ with _silva_nr99_v138.1_train_set_BPB_110921.fa.gz_ __and__ _silva_species_assignment_v138.1_BPB_110921.fa.gz 
+_assignTaxonomy()_ __and__ _addSpecies()_ with _silva_nr99_v138.1_train_set_BPB_110921.fa.gz_ __and__ _silva_species_assignment_v138.1_BPB_110921.fa.gz_ 
 
 __or__ 
 
