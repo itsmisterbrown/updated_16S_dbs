@@ -15,8 +15,7 @@ __only__ _assignTaxonomy()_ with _silva_nr99_v138.1_wSpecies_train_set_BPB_11092
 
 Performing the standard _assignTaxonomy()/addSpecies()_ workflow with _silva_nr99_v138.1_train_set_BPB_110921.fa.gz_ and _silva_species_assignment_v138.1_BPB_110921.fa.gz_ 
 __does not__ produce identical results to solely using _assignTaxonomy()_ with _silva_nr99_v138.1_wSpecies_train_set_BPB_110921.fa.gz_ and, unfortunately, both seem to provide annotations that the other does not.
-It is unknown why this is the case, so my recommendation would be to try both and see which yields better results for your dataset. Obviously, one advantage of annotating solely with _silva_nr99_v138.1_wSpecies_train_set_BPB_110921.fa.gz_ is that it saves one computational step. 
-In my experience, the one step approach takes longer but seems to give better results.
+It is unknown why this is the case, so my recommendation would be to try both and see which yields better results for your dataset. In my experience, the one step approach takes longer but seems to give better results.
 
 Modifications to the default version of this database include the addition of several key vaginal bacteria that have remained out of most 16S databases.
 Taxa added are documented below ([Genbank accession](https://www.ncbi.nlm.nih.gov/genbank/) numbers are listed in parentheses):
